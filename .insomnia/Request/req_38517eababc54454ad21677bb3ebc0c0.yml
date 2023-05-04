@@ -1,0 +1,60 @@
+_id: req_38517eababc54454ad21677bb3ebc0c0
+type: Request
+parentId: wrk_2fd32eddf407406b93650b2ba64c85b9
+modified: 1683057917431
+created: 1683036986537
+url: http://127.0.0.1:5001/api/v1/evaluation/form-answer
+name: Form Answer
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"name": "Vel dolorum rerum perspiciatis enim consequatur",
+    	"email": "racicuni@mailinator.com",
+    	"form": {
+    		"Como tomou conhecimento do Geoportal?": {
+    			"respostas": ["Pesquisa na internet."],
+    			"respostaTexto": "Teste"
+    		},
+    		"Qual a principal finalidade do Geoportal para você?": {
+    			"respostas": ["Emitir documentos e certidões.", "Download de mapas."]
+    		},
+    		"Com que frequência você utiliza os serviços do Geoportal?": {
+    			"respostas": ["Diariamente."]
+    		},
+    		"Costuma encontrar as informações que procura?": {
+    			"respostas": ["Sempre encontro."]
+    		},
+    		"Como você considera as informações disponíveis no Geoportal?": {
+    			"respostas": ["Acho fácil de entender."]
+    		},
+    		"Você já precisou usar o atendimento ao usuário pelo telefone ou email?": {
+    			"respostas": ["Sim, e fiquei totalmente satisfeito."],
+    			"respostaTexto": "Teste"
+    		},
+    		"Como você descreveria os serviços prestados pelo Geoportal? Selecione o que melhor condiz.": {
+    			"respostas": ["Intuitivo"],
+    			"respostaTexto": "Teste"
+    		},
+    		"Em uma escala de 1 (pouco) a 5 (Muito), quanto o Geoportal tem atendido e facilitado as suas necessidades do dia a dia?": {
+    			"respostas": ["5"]
+    		},
+    		"Você teria alguma sugestão de melhoria ao Geoportal?": {
+    		}
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683036986537
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

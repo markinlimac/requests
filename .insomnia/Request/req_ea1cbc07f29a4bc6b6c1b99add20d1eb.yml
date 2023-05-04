@@ -1,0 +1,30 @@
+_id: req_ea1cbc07f29a4bc6b6c1b99add20d1eb
+type: Request
+parentId: wrk_2fd32eddf407406b93650b2ba64c85b9
+modified: 1683037881010
+created: 1683036982340
+url: http://127.0.0.1:5000/api/v1/auth/account
+name: Account Delete
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "marco.costa@seduh.df.gov.br",
+    	"password": "Teste123",
+    	"confirm": "True"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683036982340
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

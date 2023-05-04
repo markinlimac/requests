@@ -1,0 +1,30 @@
+_id: req_a8008800189641fea1a19bb2b2153e58
+type: Request
+parentId: wrk_2fd32eddf407406b93650b2ba64c85b9
+modified: 1683037779200
+created: 1683036971854
+url: http://127.0.0.1:5000/api/v1/auth/login
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username": "730.414.161-15",
+    	"password": "Teste1234",
+    	"ip": "10.36.113.106"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683036971854
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

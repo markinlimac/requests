@@ -1,0 +1,21 @@
+_id: req_5fcab0aae2234542876cdd31448960b6
+type: Request
+parentId: wrk_2fd32eddf407406b93650b2ba64c85b9
+modified: 1683117493472
+created: 1683117278061
+url: http://127.0.0.1:5001/api/v1/evaluation/star-rating
+name: Star Rating
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1683117278061
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

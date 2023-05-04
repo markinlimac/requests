@@ -1,0 +1,30 @@
+_id: req_5a13c97580964b21b5526ad28ce7c86d
+type: Request
+parentId: wrk_2fd32eddf407406b93650b2ba64c85b9
+modified: 1683037863803
+created: 1683036981444
+url: http://127.0.0.1:5000/api/v1/auth/email-reset
+name: Email Reset
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"password": "Teste123",
+    	"newEmail": "marco.costa@seduh.df.gov.br",
+    	"newEmailConfirm": "marco.costa@seduh.df.gov.br"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683036981444
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

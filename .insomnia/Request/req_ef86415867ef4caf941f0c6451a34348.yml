@@ -1,0 +1,170 @@
+_id: req_ef86415867ef4caf941f0c6451a34348
+type: Request
+parentId: wrk_2fd32eddf407406b93650b2ba64c85b9
+modified: 1683059651088
+created: 1683036984889
+url: http://127.0.0.1:5001/api/v1/evaluation/form
+name: Evaluation Form
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"id": 7,
+    	"form": {
+    		"Como tomou conhecimento do Geoportal?": {
+    			"required": true,
+    			"type": "radio",
+    			"haveTextArea": true,
+    			"textAreaTitle": null,
+    			"answersInVertical": true,
+    			"inlineInputCaptionStart": null,
+    			"inlineInputCaptionEnd": null,
+    			"answers": [
+    				"Pesquisa na internet.",
+    				"Indicação de Instituição de Ensino ou Administração Pública.",
+    				"Site da SEDUH.",
+    				"Por e-mail institucional ou ambiente de trabalho.",
+    				"Pelas redes sociais.",
+    				"Indicação de um amigo.",
+    				"Outro."
+    			]
+    		},
+    		"Qual a principal finalidade do Geoportal para você?": {
+    			"required": true,
+    			"type": "checkbox",
+    			"haveTextArea": false,
+    			"textAreaTitle": null,
+    			"answersInVertical": true,
+    			"inlineInputCaptionStart": null,
+    			"inlineInputCaptionEnd": null,
+    			"answers": [
+    				"Emitir documentos e certidões.",
+    				"Pesquisar normas, endereços e imóveis.",
+    				"Download de mapas.",
+    				"Pesquisas científicas e escolares."
+    			]
+    		},
+    		"Com que frequência você utiliza os serviços do Geoportal?": {
+    			"required": true,
+    			"type": "radio",
+    			"haveTextArea": false,
+    			"textAreaTitle": null,
+    			"answersInVertical": true,
+    			"inlineInputCaptionStart": null,
+    			"inlineInputCaptionEnd": null,
+    			"answers": [
+    				"Estou usando pela primeira vez.",
+    				"Poucas vezes.",
+    				"Diariamente.",
+    				"Frequentemente - fora do trabalho.",
+    				"Frequentemente no trabalho."
+    			]
+    		},
+    		"Costuma encontrar as informações que procura?": {
+    			"required": true,
+    			"type": "radio",
+    			"haveTextArea": false,
+    			"textAreaTitle": null,
+    			"answersInVertical": true,
+    			"inlineInputCaptionStart": null,
+    			"inlineInputCaptionEnd": null,
+    			"answers": [
+    				"Não encontro.",
+    				"Não encontro todas as informações que procuro.",
+    				"Encontro, mas com dificuldade.",
+    				"Sempre encontro."
+    			]
+    		},
+    		"Como você considera as informações disponíveis no Geoportal?": {
+    			"required": true,
+    			"type": "radio",
+    			"haveTextArea": false,
+    			"textAreaTitle": null,
+    			"answersInVertical": true,
+    			"inlineInputCaptionStart": null,
+    			"inlineInputCaptionEnd": null,
+    			"answers": [
+    				"Considero as informações complexas.",
+    				"Tenho dificuldades, mas consigo entendê-las.",
+    				"Entendo o suficiente para as minhas pesquisas.",
+    				"Acho fácil de entender."
+    			]
+    		},
+    		"Você já precisou usar o atendimento ao usuário pelo telefone ou email?": {
+    			"required": true,
+    			"type": "radio",
+    			"haveTextArea": true,
+    			"textAreaTitle": "Caso não esteja satisfeito, explique o motivo da insatisfação:",
+    			"answersInVertical": true,
+    			"inlineInputCaptionStart": null,
+    			"inlineInputCaptionEnd": null,
+    			"answers": [
+    				"Nunca precisei usar, tem tudo no Geoportal.",
+    				"Sim, e não fiquei satisfeito.",
+    				"Sim, e fiquei parcialmente satisfeito.",
+    				"Sim, e fiquei satisfeito.",
+    				"Sim, e fiquei totalmente satisfeito."
+    			]
+    		},
+    		"Como você descreveria os serviços prestados pelo Geoportal? Selecione o que melhor condiz.": {
+    			"required": true,
+    			"type": "radio",
+    			"haveTextArea": true,
+    			"textAreaTitle": null,
+    			"answersInVertical": true,
+    			"inlineInputCaptionStart": null,
+    			"inlineInputCaptionEnd": null,
+    			"answers": [
+    				"Inútil",
+    				"Pouco intuitivo",
+    				"Útil",
+    				"Intuitivo",
+    				"Confiável",
+    				"Não Confiável",
+    				"Essencial",
+    				"Irrelevante"
+    			]
+    		},
+    		"Em uma escala de 1 (pouco) a 5 (Muito), quanto o Geoportal tem atendido e facilitado as suas necessidades do dia a dia?": {
+    			"required": true,
+    			"type": "radio",
+    			"haveTextArea": false,
+    			"textAreaTitle": null,
+    			"answersInVertical": false,
+    			"inlineInputCaptionStart": "Pouco provável",
+    			"inlineInputCaptionEnd": "Muito provável",
+    			"answers": [
+    				"1",
+    				"2",
+    				"3",
+    				"4",
+    				"5"
+    			]
+    		},
+    		"Você teria alguma sugestão de melhoria ao Geoportal?": {
+    			"required": false,
+    			"type": null,
+    			"haveTextArea": true,
+    			"textAreaTitle": "Deixe seu comentário sobre nosso atendimento, nova ferramenta, mudanças, entre outros.",
+    			"answersInVertical": true,
+    			"inlineInputCaptionStart": null,
+    			"inlineInputCaptionEnd": null,
+    			"answers": null
+    		}
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683036984889
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

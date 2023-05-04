@@ -1,0 +1,28 @@
+_id: req_241f6fbc25574350ae783a83cb0a7b6f
+type: Request
+parentId: wrk_2fd32eddf407406b93650b2ba64c85b9
+modified: 1683120639619
+created: 1683117497172
+url: http://127.0.0.1:5001/api/v1/evaluation/star-rating
+name: Star Rating
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"rating": 5
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683117497172
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
